@@ -1,0 +1,163 @@
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  background: #f7f8fc;
+}
+
+/* LEFT */
+
+.auth-left {
+  width: 52%;
+  min-height: 100vh;
+  padding: 45px 70px;
+  background: linear-gradient(
+    145deg,
+    #071a35,
+    #0d2d55,
+    #123e68
+  );
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.auth-left::after {
+  content: "";
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  background: rgba(255, 107, 53, 0.12);
+  right: -180px;
+  bottom: -150px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 25px;
+  font-weight: 800;
+  position: relative;
+  z-index: 2;
+}
+
+.brand span span {
+  color: #ff6b35;
+}
+
+.brand-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  background: #ff6b35;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+}
+
+.hero-content {
+  max-width: 570px;
+  margin-top: 150px;
+  position: relative;
+  z-index: 2;
+}
+
+.small-heading {
+  color: #ff6b35;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.hero-content h1 {
+  font-size: 58px;
+  line-height: 1.08;
+  margin: 15px 0 25px;
+}
+
+.hero-content h1 span {
+  color: #ff6b35;
+}
+
+.hero-text {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #cbd7e7;
+  max-width: 500px;
+}
+
+.features {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.features div {
+  color: #dbe5f2;
+  font-size: 15px;
+}
+
+.features span {
+  color: #ff6b35;
+  font-weight: bold;
+  margin-right: 12px;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 30px;
+  color: #91a5bd;
+  font-size: 12px;
+}
+
+/* RIGHT */
+
+.auth-right {
+  width: 48%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 450px;
+}
+
+/* MOBILE */
+
+@media (max-width: 900px) {
+  .auth-page {
+    display: block;
+  }
+
+  .auth-left {
+    width: 100%;
+    min-height: auto;
+    padding: 30px;
+  }
+
+  .hero-content {
+    margin-top: 70px;
+    padding-bottom: 50px;
+  }
+
+  .hero-content h1 {
+    font-size: 42px;
+  }
+
+  .copyright {
+    display: none;
+  }
+
+  .auth-right {
+    width: 100%;
+    min-height: auto;
+    padding: 45px 25px;
+  }
+}

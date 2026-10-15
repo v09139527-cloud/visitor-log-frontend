@@ -1,0 +1,138 @@
+
+.add-visitor-page {
+  min-height: 100vh;
+  background: #f5f7fb;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.add-visitor-header {
+  max-width: 900px;
+  margin: 0 auto 30px;
+}
+
+.back-button {
+  border: none;
+  background: transparent;
+  color: #286ce8;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.page-label {
+  color: #286ce8;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.add-visitor-header h1 {
+  color: #111a2e;
+  font-size: 32px;
+  margin: 8px 0;
+}
+
+.add-visitor-header p {
+  color: #718096;
+}
+
+.visitor-form-card {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 35px;
+  border-radius: 18px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.06);
+}
+
+.visitor-form-card h2 {
+  margin: 0;
+  color: #111a2e;
+}
+
+.form-description {
+  color: #718096;
+  margin-bottom: 30px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.form-group {
+  margin-bottom: 22px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #26334d;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px;
+  border: 1px solid #dce2ec;
+  border-radius: 10px;
+  font-size: 14px;
+  outline: none;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #286ce8;
+}
+
+.entry-time-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: #f1f6ff;
+  padding: 18px;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+.entry-time-box p {
+  margin: 5px 0 0;
+  color: #718096;
+  font-size: 13px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.cancel-button,
+.add-button {
+  padding: 13px 25px;
+  border-radius: 9px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.cancel-button {
+  border: 1px solid #dce2ec;
+  background: white;
+  color: #555;
+}
+
+.add-button {
+  border: none;
+  background: #286ce8;
+  color: white;
+  font-weight: bold;
+}
+
+.add-button:hover {
+  background: #195bcf;
+}
